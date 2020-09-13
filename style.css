@@ -1,0 +1,131 @@
+/* General */
+
+body {
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+img {
+    width: 100%;
+}
+  
+img.rounded {
+    border-radius: 8px;
+}
+  
+main h2 {
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+  
+main h3 {
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+  
+main p {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   line-height: 1.5em;
+   margin-bottom: 0em;
+}
+
+a:link    { color: rgb(255, 0, 0);  }
+a:visited { color: rgb(3, 7, 68);   }
+a:hover   { color: rgb(240, 113, 9); }
+a:active  { color: rgba(26, 56, 6, 0.781);}
+
+/* header */
+  
+header {
+    background-color: rgb(37, 108, 201);
+    margin-bottom: 20px;
+    display: block;
+    color: #fffb00;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+/* Main: introduction */
+
+main  .wrapper  h2 {
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+  
+main .intro {
+    font-size: 24px;
+    color: #000000;
+}
+
+/* Groups + Items (mobile) */
+
+.wrapper {
+    width: 100%;
+}
+  
+.group {
+    display: flex;
+    flex-direction: column;
+}
+  
+.item {
+    flex: 1;
+    margin: 10px;
+}
+  
+.item-double {
+    flex: 2;
+    margin: 10px;
+}
+
+/* Groups + Items (desktop) */
+
+@media all and (min-width: 800px) {
+    .wrapper {
+      width: 80%;
+      margin: auto;
+    }
+
+    .group {
+      flex-direction: row;
+    }
+}
+
+/* Article sections */
+
+#home, #portfolio, #contact {
+    margin-bottom: 80px;
+}
+  
+/* about */
+  
+#aboutme {
+    padding: 20px 0 30px 0;
+    margin: 120px 0;
+    background-color:  rgb(37, 108, 201);
+    color: #fffb00;
+}
+
+footer, #contact {
+    background-color:  rgb(37, 108, 201);
+    color: #fffb00;
+    margin: 0;
+    padding: 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#contact a {
+    font-size: 18px;
+}
