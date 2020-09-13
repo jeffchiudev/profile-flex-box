@@ -1,1 +1,1 @@
-# profile-flex-box
+# profile made with flexbox and mobile-first concepts
